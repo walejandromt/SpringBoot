@@ -11,14 +11,22 @@ import api.customers.gft.models.Request;
 import api.customers.gft.models.Response;
 import api.customers.gft.services.ApiCustomersGFTServices;
 
+/**
+ * Catch base para todos los controladores
+ * @author walejandromt
+ */
 public class ExecutionController {
 
+	/**
+	 * Se encarga de obtener los servicios genéricos de los controladores
+	 * @return
+	 */
 	public ApiCustomersGFTServices getService() {
 		return null;
 	}
 	
 	/**
-	 * Catch base para todos los controladores
+	 * Envía los request hacia la capa de servicio
 	 * @param request
 	 * @return
 	 */

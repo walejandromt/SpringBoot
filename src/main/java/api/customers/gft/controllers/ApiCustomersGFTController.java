@@ -22,11 +22,20 @@ public class ApiCustomersGFTController extends ExecutionController{
 	@Autowired
 	private ApiCustomersGFTServices apiCustomersGFTServices;
 	
+	/*
+	 * (non-Javadoc)
+	 * @see api.customers.gft.controllers.ExecutionController#getService()
+	 */
 	@Override
 	public ApiCustomersGFTServices getService() {
 		return apiCustomersGFTServices;
 	}
 	
+	/**
+	 * Metodo HTTP principal
+	 * @param request
+	 * @return
+	 */
 	@RequestMapping(value = "/customer", method = RequestMethod.GET)
 	public ResponseEntity<List<Response>> customer(Request request) {
 		return requestExecution(request);
