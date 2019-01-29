@@ -1,5 +1,6 @@
 package api.customers.gft.models;
 
+import api.customers.gft.enums.EstatusHttpEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

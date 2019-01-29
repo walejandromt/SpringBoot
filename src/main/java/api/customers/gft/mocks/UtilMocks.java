@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import api.customers.gft.assemblersPredicate.AssemblerToPredicate;
+import api.customers.gft.assemblers.predicate.AssemblerToPredicate;
+import api.customers.gft.enums.SpecificationEnum;
 import api.customers.gft.models.Predicate;
 import api.customers.gft.models.Request;
 import api.customers.gft.models.Response;
-import api.customers.gft.models.SpecificationEnum;
 import api.customers.gft.repository.ApiCustomersGFTRepositoy;
 
 /**

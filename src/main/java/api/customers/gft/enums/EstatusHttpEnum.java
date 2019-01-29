@@ -1,4 +1,4 @@
-package api.customers.gft.models;
+package api.customers.gft.enums;
 
 /**
  * Enum de estados de HTTP

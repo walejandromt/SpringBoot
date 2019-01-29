@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import api.customers.gft.assemblersPredicate.AssemblerToPredicate;
+import api.customers.gft.assemblers.predicate.AssemblerToPredicate;
+import api.customers.gft.enums.EstatusHttpEnum;
 import api.customers.gft.mocks.UtilMocks;
-import api.customers.gft.models.EstatusHttpEnum;
 import api.customers.gft.models.Header;
 import api.customers.gft.models.MensajeResponse;
 import api.customers.gft.models.Request;

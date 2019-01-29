@@ -1,4 +1,4 @@
-package api.customers.gft.assemblersPredicate;
+package api.customers.gft.assemblers.predicate;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,12 +6,12 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import api.customers.gft.enums.SpecificationEnum;
 import api.customers.gft.models.Predicate;
 import api.customers.gft.models.Request;
-import api.customers.gft.models.SpecificationEnum;
 
 /**
- * Simbola un ensamblador de predicados de Criteria
+ * Simula un ensamblador de predicados de Criteria
  * @author walejandromt
  */
 @Component
